@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+
+<style>
+
+.main-content{
+    display: grid;
+    grid-template-columns: 300px 700px;
+    height: 1000px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.left-section{
+    background-color: #3b3c3b;
+}
+
+.left-content{
+    padding: 1rem;
+}
+
+.profile-image{
+    display: block;
+    align-items: center;
+    margin: auto;
+    width: 60%;
+    border: 5px solid white;
+    border-radius: 30%;
+}
+
+.name{
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.02px;
+    text-transform: uppercase;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.description{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.contact-item{
+    padding: 1rem;
+    border-bottom: 2px solid white;
+}
+
+.social{
+    display: inline;
+    align-content: center;
+    padding: 20px;
+}
+
+.contact-info{
+    padding-top: 5px;
+}
+
+.contact{
+    list-style: none;
+    padding: 7px 0px 7px 2px;;
+}
+
+.icon{
+    color: white;
+}
+
+.contact-icon{
+    padding-right: 10px;
+}
+
+.contact-des{
+    font-size: 14px;
+}
+
+.skills{
+    font-size: 0.75rem;
+    font-weight: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    color: white;
+}
+
+.skill-name{
+    font-size: 0.65rem;
+    font-weight: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+    color: white;
+}
+
+.progress-bar{
+    height: 4px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.right-section{
+    background-color: #e6e6e6;
+}
+
+.right-main-content{
+    padding: 2rem 3rem 2rem 3rem;
+}
+
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.right-info{
+    padding: auto;
+    letter-spacing: 0.5px;
+}
+
+@media only screen and (max-width: 674px) {
+  .main-content{
+      grid-template-columns: repeat(1, 1fr);
+      width: 90%;
+  }
+}
+
+</style>
+
+</head>
+
+
+
+<body>
+
+    <main class="main-content">
+
+        <section class="left-section">
+
+            <div class="left-content">
+
+                <div class="profile-details">
+                    <div class="proile-image">
+                        <img src="Images\IMG_9718-01-02.jpeg" class="profile-image">
+                    </div>
+                    <div class="name">
+                        <h2>Vaibhav Kiratkar</h2>
+                    </div>
+                    <div class="designation">
+                        <h4>Senior Developer</h4>
+                    </div>
+                    <div class="description">
+                        <p>Senior Web Developer | Python | Node JS | SQL | Mongo DB</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="social-media">
+                        <li class="icon social">
+                            <i class="fa fa-linkedin"></i>
+                        </li>
+                        <li class="icon social">
+                            <i class="fa fa-github"></i>
+                        </li>
+                        <li class="icon social">
+                            <i class="fa fa-facebook"></i>
+                        </li>
+                        <li class="icon social">
+                            <i class="fa fa-instagram"></i>
+                        </li>
+                    </div>
+                    <div class="contact-info">
+                        <li class="icon contact">
+                            <i class="fa fa-phone contact-icon"></i><span class="contact-des">9689696540</span>
+                        </li>
+                        <li class="icon contact">
+                            <i class="fa fa-envelope contact-icon"></i><span class="contact-des">vaibhavkiratkar@hotmail.com</span>
+                        </li>
+                        <li class="icon contact">
+                            <i class="fa fa-map contact-icon"></i><span class="contact-des">Akola, Maharashtra</span>
+                        </li>
+                    </div>
+                </div>
+
+                <div class="skills">
+                    <h1">Skills</h1>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-name">                        
+                        <h4>HTML</h4>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 80%;"></div>
+                    </div>
+                    <div class="skill-name"> 
+                        <h4>CSS</h4>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 70%;"></div>
+                    </div>
+                    <div class="skill-name"> 
+                        <h4>JAVASCRIPT</h4>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 60%;"></div>
+                    </div>
+                    <div class="skill-name"> 
+                        <h4>REACT</h4>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 50%;"></div>
+                    </div>
+                    <div class="skill-name">
+                        <h4>NODEJS</h4>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 40%;"></div>
+                    </div>
+                    <div class="skill-name"> 
+                        <h4>MONGODB</h4>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 30%;"></div>
+                    </div>
+                    <div class="skill-name">  
+                        <h4>MYSQL</h4>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 20%;"></div>
+                    </div>
+                    <div class="skill-name">  
+                        <h4>PHP</h4>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 10%;"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="right-section">
+            <div class="right-main-content">
+                <section class="about">
+                    <div class="right-title">
+                        <h2>About Me</h2>
+                    </div>
+                    <div class="right-info">
+                        <p>Successful English teacher with more than 10 years of professional experience. Seeking a career change to a position involving copywriting for a medium to large marketing firm. Driven self-starter and fast learner who has volunteered to help teachers in various courses with their lesson-plan writing and after-school tutoring.</p>
+                        <p>Highly organized and detail-oriented honors graduate from the University of Georgia seeking an entry-level position as an accountant. Served as a peer tutor for courses such as general accounting, budgeting and forecasting, and accounting principles and legislation.</p>
+                    </div>
+                </section>
+                <section class="education">
+                    <div class="right-title">
+                        <h2>Education</h2>
+                    </div>
+                    <div class="right-info">
+                        <ul>
+                            <li><b>Name of degree:</b> B.A. English Language and Culture, Minor in Teaching*</li>
+                            <li><b>Name of educational institution:</b> University of Groningen</li>
+                            <li><b>Years attended:</b> 2016 - 2019</li>
+                            <li><b>Location of the program:</b> Groningen, the Netherlands</li>
+                            <li><b>GPA:</b> 3,84. Keep in mind, though, that you only list education if it’s at an “impressive” scale (i.e. 3.5+). This shows determination and hard work on your part. If it’s lower, you might want to omit it altogether.</li>
+                            <li><b>Honors:</b> Magna Cum Laude</li>
+                            <li><b>Courses that are relevant to the job:</b> Modern Popular Literature track</li>
+                            <li><b>Exchange programs:</b> Exchange Program in Oslo, Norway</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="experience">
+                    <div class="right-title">
+                        <h2>Experience</h2>
+                    </div>
+                    <div class="right-info">
+                        <ul>
+                            <li>Ethene Technologies | Remote Work</li>
+                            <li>Freelance Web Developer |**Feb. 2019–Present</li>
+                            <li>Prototyped an average of 15 new product in a year</li>
+                            <li>Increased user experience by 20%</li>
+                            <li>Implemented coding best practices that reduced rework by 25% and cost by 12%</li>
+                            <li>Received a website award for Best Navigation and Structure 2019</li>
+                            <li>Managed all human resource functions in 50+ IT company</li>
+                            <li>Handled training, payroll processing and interviewing</li>
+                            <li>Became 2019 Employee of the Year</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+    </main>
+    
+</body>
+
+
+
+</html>

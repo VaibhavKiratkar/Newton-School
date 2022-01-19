@@ -1,0 +1,25 @@
+FOR COLUMNS:
+grid-column-start: 3;
+grid-column-end: 5;
+grid-column: 3/5;
+
+
+FOR ROWS:
+grid-row-start: 3;
+grid-row-end: 5;
+grid-row: 3/5;
+
+ROWS AND COLUMNS:
+grid-area: grid-row-start, grid-column-start, grid-row-end, grid-column-end.
+
+
+ORDER:
+order changes the position of the single item
+order: 3;
+
+
+defines the width of the block
+grid-template-columns: 20% 20% 20% 20%
+
+defines the height of the block
+grid-template-rows: 20% 20% 20% 20%
